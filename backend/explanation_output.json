@@ -1,0 +1,3 @@
+{
+    "explanation": "This function first checks some basic cases (less than or equal to 1, 2, and 3). Then, it checks for divisibility by 2 and 3. Finally, it checks for divisibility by numbers of the form `6k ± 1` up to the square root of `n`. If the number is not divisible by any of these, it is prime."
+}

@@ -1,0 +1,22 @@
+# macOS 系统文件
+.DS_Store
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.env
+
+# 敏感文件
+backend/utils/token.json
+backend/utils/credentials.json
+
+# IDE 配置文件
+.idea/
+
+# Node 模块（如果在 frontend 中）
+node_modules/

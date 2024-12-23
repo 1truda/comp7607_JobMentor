@@ -1,0 +1,111 @@
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 0.1fr 0.8fr 0.1fr;
+    gap: 0px 0px;
+}
+
+.header1 {
+    padding: 0px;
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+    box-sizing: border-box;
+    padding: 0 24px;
+}
+
+.main {
+    padding-top: 0px;
+    margin: 24px;
+    flex: auto;
+    min-height: 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+/*.item{*/
+/*   position: relative;*/
+/*   box-shadow: 1px 1px 0 0 whitesmoke;*/
+/*   text-align: center;*/
+/* }*/
+/* .item img{*/
+/*   display: inline-block;*/
+/*   width: 30px;*/
+/*   height: 30px;*/
+/*   vertical-align: middle;*/
+/*   padding-left: 20px;*/
+/* }*/
+/* .item p{*/
+/*   display: inline-block;*/
+/* }*/
+/* table{*/
+/*   width: 100%;*/
+/* }*/
+/* td{*/
+/*   margin: 0;*/
+/*   padding: 0;*/
+/*   border: 1px solid rgb(241, 241, 245);*/
+/*   border-radius: 3px;*/
+/* }*/
+/* body{*/
+/*   width: 100%;*/
+/*   height: 100%;*/
+/*   background-repeat: no-repeat;*/
+/* }*/
+/* .log{*/
+/*   width: 100%;*/
+/*   height: 100%;*/
+/* }*/
+/* .log form{*/
+/*   margin-top: 200px;*/
+/*   margin-left: 230px;*/
+/* }*/
+/* .stock_title{*/
+/*   height: 100%;*/
+/*   display: flex;*/
+/* }*/
+/* .stockName{*/
+/*   color: rgb(68, 155, 226);*/
+/*   font-size: larger;*/
+/*   font-weight: 900;*/
+/*   margin-right: 20px;*/
+/* }*/
+/* .setFavorite{*/
+/*   position: absolute;*/
+/*   right: 20px;*/
+/* } */
+/* .data{*/
+/*   display: flex;*/
+/* }*/
+/* .box{*/
+/*   margin-top: 20px;*/
+/*   margin-right: 40px;*/
+/*   border: transparent;*/
+/*   width: 30%;*/
+/* }*/
+/* .box_item{*/
+/*   height: 30px;*/
+/*   box-shadow: transparent;*/
+/* }*/
+/* .box_item span:nth-child(2){*/
+/*   position: relative;*/
+/*   right: 0;*/
+/* }*/
+/* .search_form{*/
+/*   margin-bottom: 10px;*/
+/* }*/
+/* #graph{*/
+/*   height: 400px;*/
+/*   width: 100%;*/
+/*   background-color: transparent;*/
+/* }*/

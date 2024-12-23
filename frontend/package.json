@@ -1,0 +1,72 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.13",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-plotly.js": "^2.6.3",
+    "@types/react-router-dom": "^5.3.3",
+    "antd": "^5.11.2",
+    "axios": "^1.3.4",
+    "create-nodew-exe": "^1.0.10",
+    "dayjs": "^1.11.7",
+    "echarts-for-react": "^3.0.2",
+    "plotly.js": "^2.27.1",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-day-picker": "^8.6.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "^5.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.12",
+    "koa": "^2.15.2",
+    "koa-static": "^5.0.0"
+  },
+  "proxy": "http://127.0.0.1:5000",
+  "bin": "./services.js",
+  "pkg": {
+    "scripts": [],
+    "assets": [
+      "./build/**/*"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:pkg": "pkg . -t win --out-path=dist/ --debug"
+  }
+}
